@@ -9,7 +9,7 @@
 <body>
     <!-- お問合せフォーム画面 -->
     <div class="container">
-        <form action="./confirm.html" method="POST">
+        <form action="./confirm.html" method="POST" novalidate>
             <p>お問い合わせ</p>
             <div class="form-group">
                 <div class="row">
@@ -21,7 +21,6 @@
                     </div>
                     <div class="col-8">
                         <input type="text" name="name" id="inputName" class="form-control" required autofocus>
-                        <p class="error_msg">※お名前をご記入下さい</p>
                     </div>
                 </div>
             </div>
